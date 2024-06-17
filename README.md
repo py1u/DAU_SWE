@@ -11,6 +11,7 @@ updated: 6/13/24
 - Charleen Chen
 - Angeline Tran
 - Ashna Pradhan
+- Ashley Nguyen
 
 This documentation serves as a comprehensive guide for DAU development, showcasing the talented individuals comprising the team and their respective roles within the project.
 ~ DAU 2024-2025
