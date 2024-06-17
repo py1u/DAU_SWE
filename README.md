@@ -1,12 +1,13 @@
 # DAU_SWE
 ### DAU SWE Team 
+
 updated: 6/13/24
-### Senior Devs:
+
+Authors:
+
 - Peter Lu
 - Alex Zhang
 - Valerie Wong
-
-### Junior Devs
 - Tiana Nguyen
 - Charleen Chen
 - Angeline Tran
