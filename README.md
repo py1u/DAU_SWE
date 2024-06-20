@@ -7,7 +7,7 @@ Authors:
 
 - Peter Lu
 - Alex Zhang
-- Valerie Wong
+- Kelly Serafico
 - Tiana Nguyen
 - Charleen Chen
 - Angeline Tran
