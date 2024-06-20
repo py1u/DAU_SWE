@@ -3,11 +3,10 @@
 
 updated: 6/13/24
 
-Authors:
+Leads: 
+- Peter Lu, Alex Zhang, Kelly Serafico
 
-- Peter Lu
-- Alex Zhang
-- Kelly Serafico
+Members:
 - Tiana Nguyen
 - Charleen Chen
 - Angeline Tran
