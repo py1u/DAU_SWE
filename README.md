@@ -1,13 +1,12 @@
 # DAU_SWE
 ### DAU SWE Team 
 
-updated: 6/13/24
+updated: 6/19/24
 
-Authors:
+Leads: 
+- Peter Lu, Alex Zhang, Kelly Serafico
 
-- Peter Lu
-- Alex Zhang
-- Valerie Wong
+Members:
 - Tiana Nguyen
 - Charleen Chen
 - Angeline Tran
