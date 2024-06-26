@@ -4,7 +4,7 @@
 updated: 6/19/24
 
 Leads: 
-- Peter Lu, Alex Zhang, Kelly Serafico
+- Peter Lu, Alex Zhang, Kelly Serafico, Valerie Wong
 
 Members:
 - Tiana Nguyen
