@@ -12,7 +12,7 @@ Members:
 - Angeline Tran
 - Ashna Pradhan
 - Ashley Nguyen
-
+- Sachin Chopra
 This documentation serves as a comprehensive guide for DAU development, showcasing the talented individuals comprising the team and their respective roles within the project.
 ~ DAU 2024-2025
 
