@@ -5,9 +5,9 @@ import SecondaryLogo from "../../public/secondary_logo.svg";
 export default function Login() {
     return(
         <div className="bg-white flex flex-col items-center">
-            <Image class="w-100" src={PrimaryLogo}/>
-                <Image class="w-100" src={SecondaryLogo}/>
-                <header class="container-header"><p>Sign In</p></header>
+            <Image src={PrimaryLogo}/>
+                <Image className="-mt-80 mb-30" src={SecondaryLogo}/>
+                <header class="w-96 h-20 rounded-t-2xl bg-teal-950 flex justify-center items-center"><p>Sign In</p></header>
                 <section class="log-in-container">
                     <div>
                             <label for="email">email</label>
