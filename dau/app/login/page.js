@@ -4,7 +4,7 @@ import SecondaryLogo from "../../public/secondary_logo.svg";
 
 export default function Login() {
     return(
-        <div>
+        <div className="bg-white flex flex-col items-center">
             <Image class="w-100" src={PrimaryLogo}/>
                 <Image class="w-100" src={SecondaryLogo}/>
                 <header class="container-header"><p>Sign In</p></header>
