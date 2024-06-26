@@ -1,8 +1,12 @@
+import Image from 'next/image';
+import PrimaryLogo from "../../public/primary_logo.svg";
+import SecondaryLogo from "../../public/secondary_logo.svg";
+
 export default function Login() {
     return(
         <div>
-            <img class="primary-logo" src="../media/images/primary_logo.svg"/>
-                <img class="secondary-logo" src="../media/images/secondary_logo.svg"/>
+            <Image class="w-100" src={PrimaryLogo}/>
+                <Image class="w-100" src={SecondaryLogo}/>
                 <header class="container-header"><p>Sign In</p></header>
                 <section class="log-in-container">
                     <div>
