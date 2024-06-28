@@ -25,3 +25,12 @@ body{
     width:13%;
     border: 5px solid white;
 }
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: #64A587;
+    font-weight: 700;
+}
