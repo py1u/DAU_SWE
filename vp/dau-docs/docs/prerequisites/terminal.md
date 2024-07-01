@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Terminal'
+sidebar_label: 'Terminal Commands'
 sidebar_position: 2
 ---
 
@@ -7,8 +7,8 @@ sidebar_position: 2
 
 The terminal (also known as the command line or shell) is a text-based interface used to interact with the operating system. It allows users to execute commands to perform tasks such as navigating the file system, managing files and directories, running scripts, and more. It's a powerful tool for developers and should be learned well. Below are some the most common commands you may use.
 
-## Basic Terminal Commands for Beginners
-
+## Basic Terminal Commands
+This section goes over common commands you will use during development when interacting with there command line.
 ### Windows Command Prompt (cmd) and PowerShell
 
 #### 1. Navigating Directories
