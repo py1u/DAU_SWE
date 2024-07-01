@@ -1,10 +1,9 @@
 ---
 sidebar_label: 'Terminal'
 sidebar_position: 2
-id: start
 ---
 
-## Terminal/Command Line
+# Terminal/Command Line
 
 The terminal (also known as the command line or shell) is a text-based interface used to interact with the operating system. It allows users to execute commands to perform tasks such as navigating the file system, managing files and directories, running scripts, and more. It's a powerful tool for developers and should be learned well. Below are some the most common commands you may use.
 
@@ -142,7 +141,3 @@ The terminal (also known as the command line or shell) is a text-based interface
   ```sh
   dir /s file_name.ext  # Windows
   ```
-
-## Conclusion
-
-Understanding and using the terminal efficiently can greatly enhance your productivity and control over your operating system. These basic commands provide a foundation for beginners to start navigating, managing files, and performing simple tasks in both Windows and macOS environments.
