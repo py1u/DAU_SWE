@@ -3,6 +3,7 @@ sidebar_label: 'Git And Github'
 sidebar_position: 1
 ---
 
+# Git and Gtihub
 
 This guide covers how to get started with Git and using GitHub to manage our workflow and project development. Both are crucial to software development because they streamline our work and allow us to collaborate with each other's code effectively.
 
@@ -31,13 +32,13 @@ Cloning makes a copy of a repo from GitHub onto your editor or IDE and asks you 
 
 ### Branching and Development Workflow
 
-Before beginning development:
+#### Before beginning development:
 1. Create a branch using the branch naming convention:
    - `username/feature-name`
    - Example: `peterlu/feature` 
    - Avoid too broad and too specific branch names(ex: frontend, backend, button-color, etc)
 
-After making code change in a file:
+#### After making code change in a file:
 1. Staging changes:
    - All changes: `git add .`
    - A single file `git add [filename]`
@@ -47,16 +48,26 @@ After making code change in a file:
      git add .
      git commit -m "add login functionality to nav bar"
      ```
+3. Push the changes to the remote repository:
+- changes will reflect on the remote branch that you created in your working directory
+   - Example:
+   ```bash
+   git push
+   ```
+
+4. Create a pull request on Github:
+- add a assignee, reviewer, and relevent labels(see below)
 
 ### Best Practices for Commit Messages
 
 - Limit commit messages to 50 characters.
 - Use meaningful and descriptive messages.
-- Follow a consistent format starting with a verb:
+- Follow a consistent format starting either following actions:
   - **add**: new features or code
   - **update**: updates to existing features or code
   - **fix**: bug fixes or typo corrections
   - **create**: creating new files or directories
+  - **remove** remove a file or folder
 
 ### Working with GitHub
 
@@ -86,6 +97,8 @@ Always ensure the following before creating a pull request:
    -Dashboard: Peter, Alex
    - APIs: Peter, Alex
    - Documentation: Any Lead
+
+
 2. **Assignee**: You are responsible for your own pull request.
 3. **Labels**: Assign relevant labels to organize issues and pull requests:
    - **Auth**: User authentication
