@@ -4,7 +4,7 @@
 updated: 6/19/24
 
 Leads: 
-- Peter Lu, Alex Zhang, Kelly Serafico
+- Peter Lu, Alex Zhang, Kelly Serafico, Valerie Wong
 
 Members:
 - Tiana Nguyen
@@ -12,6 +12,7 @@ Members:
 - Angeline Tran
 - Ashna Pradhan
 - Ashley Nguyen
+- Sachin Chopra
 
 This documentation serves as a comprehensive guide for DAU development, showcasing the talented individuals comprising the team and their respective roles within the project.
 ~ DAU 2024-2025
