@@ -1,113 +1,56 @@
-html{
-    background-color: #EEEEEE;
-    display:flex;
-    flex-direction:column;
-    align-items: center;
-    font-family: "Josefin Sans";
-}
-
-img{
-    margin-left:auto;
-    margin-right:auto;
-    display:block;
-}
-
-.secondary-logo{
-    margin-top: -80px;
-    margin-bottom: 30px;
-}
-
-.container-header{
-    width: 550px;
-    height: 80px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    background-color: #043539;
-    display:flex;
+.log-in-container { 
+    border: solid;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding: 50px;
+    border-radius: 25px;
+    background-color: rgb(255, 222, 170);
+
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
 }
-.container-header p{
-    font-size: 40px;
-    color: white;
+
+#email { 
+    margin-bottom: 10px;
+    /* border: solid; */
 }
-.log-in-container{
-    width:550px;
-    height:525px;
-    background-color: white;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+
+#email input { 
+    font-family: "Ga Maamli", sans-serif;
+    padding: 5px 20px 5px 3px;
+
 }
-.log-in-container div{
-    display:flex;
-    flex-direction: column;
-}
-label{
-    margin-left: 5px;
-    font-size:30px;
-    color: #6D6D6D;
+
+#password { 
     margin-bottom: 10px;
 }
-input{
-    width:470px;
-    height:50px;
-    background-color: #DFD9D9;
-    border-radius:60px;
-    border:none;
-    margin-left:auto;
-    margin-right:auto;
-    padding: 5px 15px;
-    font-size:15px;
+
+#password input { 
+    font-family: "Ga Maamli", sans-serif;
+    padding: 5px 20px 5px 3px;
+
 }
 
-input:focus{
-    outline: none;
+#create-btn { 
+    margin-top: 10px;
+    font-family: "Ga Maamli", sans-serif;
+    padding: 5px 5px 5px 5px;
+    border-radius: 25px;
+    background-color: rgb(237, 147, 114);
+
+
 }
 
-.log-in-container > *{
-    display:flex;
-    flex-direction:row;
-    color:black;
-    top: 30px;
-    position:relative;
-    margin-top:20px;
-}
-
-.solid{
-    border-top: 180px solid;
-    display:flex;
-    width: 100px; /* Adjust the width as needed */
-    border: 1px solid #6D6D6D; /* Thin border for the horizontal rule */
-    margin-left: 15px;
-    margin-right: 15px;
-}
-span p{
-    font-size: 30px;
-}
-#divider{
-    position:relative;
-    top: 60px;
-}
-
-.log-in-container button{
-    width:400px;
-    height:60px;
-    border-radius:60px;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    border:none;
-    background-color: #043539;
-    color:white;
-    font-size: 30px;
-    margin-top: 90px;
-}
-
-.log-in-container button:hover{
-    background-color: #032326;
-    cursor:pointer;
+body { 
+    font-family: "Ga Maamli", sans-serif;
+    background-color: rgb(195, 195, 195);
 }
