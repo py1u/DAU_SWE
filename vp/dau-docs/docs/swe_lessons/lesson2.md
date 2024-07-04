@@ -1,6 +1,6 @@
 ---
-sidebar_label: "Semantic HTMl";
-sidebar_position: 2;
+sidebar_label: 'Semantic HTMl'
+sidebar_position: 2
 ---
 
 ```markdown

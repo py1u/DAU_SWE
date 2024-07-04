@@ -1,6 +1,6 @@
 ---
-sidebar_label: Web Dev Intro;
-sidebar_position: 1;
+sidebar_label: 'Web Dev Intro'
+sidebar_position: 1
 ---
 
 # DAU SWE Lesson 1
@@ -30,13 +30,15 @@ Unlike HTML and CSS, JavaScript (JS) is a programming language. It allows us to 
 - Building games
 - Performing backend development
 
-Building a strong foundation in JS early will make learning libraries and tools such as React and Node.js much easier. Always build a strong JS foundation as someone new to web development!
+Building a strong foundation in JS early will make learning libraries and tools such as React,Nextjs much easier. Have a strong understanding of HTMl and CSS then javascript as someone new to web development!
 
 We learn in this order because it's the simplest way to understand web development:
 - The majority of time will be spent learning JavaScript 
 - HTML and CSS can be picked up along the way
 
-Websites can be simply split into two layers: the frontend and backend. In software engineering, we use this split to create a separation of concerns. This results in three popular roles: Frontend Developer, Backend Developer, and Full-Stack Developer.
+At the end of the day, users are focused on what is delivered and displayed from the frontend development but backend implementations such as page loading, media queries, and keeping the website up and running matter as well,
+
+Websites can be simply split into two layers: the frontend and backend. In software engineering, we use this split to create a separation of concerns. This results in three popular roles: Frontend Developer, Backend Developer, and Full-Stack Developer. Lets go over what each layer is and the respective roles.
 
 ### The Frontend
 - Everything a user sees and interacts with visually
@@ -93,18 +95,25 @@ Websites can be simply split into two layers: the frontend and backend. In softw
 - Less specific and specialized in frontend and backend
 - Experienced full stack developers are very good with expertise in either role
 
-## Development
-We cover the basics of coding and getting started with building a simple webpage, using CSS, and learning the basics of JavaScript!
+## Learn the Basics
+We cover the basics of coding and getting started with building a simple webpage structure with **HTML**, styling using **CSS**, and learning the basics of **Javascript**
 
-### HTML Notes:
+### HTML
+- Stands for **H**yper**T**ext **M**arkup **L**anguage
 - Structures a webpage and its content
-- HTML is made of elements, tags, and content
-- Elements are a part of a webpage
+- HTML is made of **elements** that are used to wrap parts of content that structure and make up a HTML document
+- Elements are made of tags and content
 - Tags contain the content and specify the type of element
   - An opening tag `<>`
   - A closing tag `</>`
-  - Content is the text or what is contained between the tags
-  - `<tag> content found here </tag>`
+  - Content is in between tags and is what you want to display to a webpage
+
+    `<tag> type content here</tag>`
+
+  Example of a paragraph tag `<p></p>`
+  ```html
+  <p> Welcome to Design At UCR </p>
+  ```
 - Elements and tags are NOT the same
 - Attributes are used to group or uniquely define elements
   - `class`: groups similar elements together that can be reused
