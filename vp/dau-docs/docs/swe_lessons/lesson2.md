@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Semantic HTMl'
+sidebar_label: 'Semantic HTML'
 sidebar_position: 2
 ---
 
