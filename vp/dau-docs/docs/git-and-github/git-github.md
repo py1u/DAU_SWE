@@ -3,7 +3,7 @@ sidebar_label: 'Git And Github'
 sidebar_position: 1
 ---
 
-# Git and Gtihub
+# Git and Github
 
 This guide covers how to get started with Git and using GitHub to manage our workflow and project development. Both are crucial to software development because they streamline our work and allow us to collaborate with each other's code effectively.
 
