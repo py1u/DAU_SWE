@@ -1,0 +1,43 @@
+.phone-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    align-items: center;
+    border:solid;
+    width: 393px;
+    height: 852px;
+    background-color: #121212;
+    gap: 50px;
+}
+
+.login-title {
+    display: flex;
+    color: white;
+    border: solid red;
+}
+
+.option1 {
+    border: solid red;
+}
+
+.btn-border {
+    border: solid rgb(140, 148, 255);
+}
+    
+.btn-bg{
+
+    background-color: rgb(49, 0, 95);
+}
+
+.btn-color{
+    color: rgb(255, 255, 255);    
+}
+
+.btn-padding {
+    padding: 10px;
+}
+    
+.btn-radius {
+    border-radius: 25px;
+}
