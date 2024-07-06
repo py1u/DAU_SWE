@@ -1,14 +1,14 @@
 ---
-sidebar_label: 'Semantic HTML'
+sidebar_label: 'Learning HTML'
 sidebar_position: 2
 ---
 
-```markdown
-# Quick Showcase of Semantic HTML
+# DAU SWE Lesson 2
+## Learning HTML
 
 Today's lesson covers how we can improve frontend development techniques by building strong foundations in basic HTML and CSS. In order to perform any sort of frontend development using frameworks or UI libraries, understanding how to write ‘vanilla’ code is important. Long term, this will make writing harder and more advanced code easier.
 
-## HTML 
+## Semantic HTML 
 
 We need to be able to write semantic HTML. This means using the appropriate elements to create meaningful content on a web page. This is more than the appearance of a webpage.
 
@@ -20,6 +20,7 @@ Let's look at a few basic ones to get an idea of how semantic tags in HTML are u
 
 ### The header tag
 Used to section the top of a website usually for an introduction or navigational content and logo and branding.
+
 ```html
 <header>
     <h1>DAU Website</h1>
