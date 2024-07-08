@@ -299,4 +299,3 @@ Atomic CSS helped inspire TailwindCSS so learn to write inline styling when tran
 - **Maintainability**: Easier to manage and update styles.
 
 Atomic CSS is important to understand because it is similar to Tailwind CSS, a CSS framework used to rapidly develop website styles.
-```
