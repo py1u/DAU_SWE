@@ -7,6 +7,9 @@ sidebar_position: 3
 
 ## Learning CSS
 
+CSS is the most important skill to master for anything looking to do frontend development. While there are many javscript libraries and tools that allow you to build modern and advanced user interfaces, learning CSS from the beginning while building a strong understanding of its many properties and tricks will speed up the tedious frontend development that most developers face. 
+
+We cover common properties and ideas of using vanilla CSS. Later on we will explore Tailwind and React.
 ### What is CSS
 - Stands for Cascading Sytle Sheets
 - Styles and makes a webpage look nice
@@ -77,9 +80,9 @@ Selectors are used to select elements from class, id, or the element name itself
   }
   ```
 
-#### Basic CSS Properties
+## Basic CSS Properties
 
-#### Color and Background
+### Color and Background
 - **color**: Sets the color of text.
   ```css
   p {
@@ -101,7 +104,7 @@ Selectors are used to select elements from class, id, or the element name itself
   }
   ```
 
-#### Text
+### Text
 - **font-size**: Sets the size of the font.
   ```css
   h1 {
@@ -130,7 +133,7 @@ Selectors are used to select elements from class, id, or the element name itself
   }
   ```
 
-#### Box Model
+### Box Model
 The box model is what makes up the container that a element stores content in. 
 
 - **width** and **height**: Sets the width and height of an element.
@@ -161,18 +164,6 @@ The box model is what makes up the container that a element stores content in.
     border: 1px solid black;
   }
   ```
-
-#### Layout
-These include diplay, positioning, and layers. 
-
-- **display**: Specifies the display behavior of an element.
-Here we are using the flexbox property.
-
-  ```css
-  .container {
-    display: flex;
-    /* use flexbox properties below */
-  }
   ```
 
 - **position**: Specifies the type of positioning method used for an element.
@@ -201,7 +192,7 @@ Examples:
     right: 0px;
   ```
 
-- **z-index**: Sets the stack order of an element.
+ **z-index**: Sets the stack order of an element.
   - this changes how elements and css are layered upon eachother
   - the larger the number, the more elements it will overlap
   ```css
@@ -209,9 +200,25 @@ Examples:
     z-index: 10;
   }
   ```
+  
+### Layout
+These include diplay, positioning, and layers. 
 
-#### Flexbox
-- **flex-direction**: Defines the direction of the flex items.
+**The Flexbox**:
+Flexbox is one of the most important css layouts to know. TailwindCSS utilizes flexbox as well as modern frontend development. The goal of flexbox is to give a container the ability to best fill the available space of a website. 
+
+- **display**: Specifies the display behavior of an element.
+Here we are using the flexbox property.
+
+Learn about flexbox in full detail here: [https://css-tricks.com/snippets/css/a-guide-to-flexbox/]
+  
+  To start using flexbox, you need this property:
+  ```css
+  .container {
+    display: flex;
+    /* use flexbox properties below */
+  }
+```
 
 The element that contains the `display: flex;` property is the parent called "flex contianer". The nested elements are called the childern or "flex items"
   ```css
