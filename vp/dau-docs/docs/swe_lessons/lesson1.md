@@ -8,9 +8,12 @@ sidebar_position: 1
 
 We are working on building a full-scale platform for DAU over the summer and expecting to launch before the start of the fall quarter 2024. To prepare everyone, I am leading a series of lessons that go from beginner to intermediate web development that everyone can follow and utilize to contribute to the development of the platform.
 
-Web Development or web dev is the job of building, maintaining, and testing websites and web applications. This usually involves working on web design, development, and database management. 
+Web Development or web dev is the job of building, maintaining, and testing websites and web applications. This usually involves working with mutliple team members in a project focused environment to meet client needs for a end product. Web developers solve problems, build complex and useful applications, and are constantly experiementing with new technologies. To start lets look at the basics of building a webpage because thats where all web developers start. 
 
-### Three Components of a Webpage:
+### Three building blocks of a Webpage:
+There are three building blocks that get you started with building a webpage. 
+Webpage is one single page of a website.
+
 1. **HTML**
    - Hypertext Markup Language
    - Structures and defines content of our web page
