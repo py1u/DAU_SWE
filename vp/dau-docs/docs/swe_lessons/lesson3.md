@@ -7,36 +7,44 @@ sidebar_position: 3
 
 ## Learning CSS
 
-CSS is the most important skill to master for anything looking to do frontend development. While there are many javscript libraries and tools that allow you to build modern and advanced user interfaces, learning CSS from the beginning while building a strong understanding of its many properties and tricks will speed up the tedious frontend development that most developers face. 
+CSS is a fundamental skill for anyone looking to do frontend development. While there are many JavaScript libraries and tools for building modern user interfaces, mastering CSS from the beginning and understanding its many properties and tricks will greatly simplify frontend development.
 
-We cover common properties and ideas of using vanilla CSS. Later on we will explore Tailwind and React.
-### What is CSS
-- Stands for Cascading Sytle Sheets
-- Styles and makes a webpage look nice
-- Most of the heavy frontend development is using CSS
+In this lesson, we cover common properties and concepts of using vanilla CSS. Later on, we will explore Tailwind and React.
 
-Three ways to add CSS: **internal**, **external**, and **inline**
+### What is CSS?
 
-Inline writes CSS between the opening tag of an HTML element
+- Stands for Cascading Style Sheets.
+- Styles and enhances the appearance of a webpage.
+- Most of the heavy lifting in frontend development involves CSS.
+
+### Adding CSS to HTML
+
+There are three ways to add CSS: **inline**, **internal**, and **external**.
+
+- **Inline**: Writes CSS directly within the opening tag of an HTML element.
   ```html
-  <div class="box" style= "border-solid;"> gives this container a box</div>
+  <div class="box" style="border: solid;">This container has a solid border</div>
   ```
-**Internal** uses the `<style></style>` tag and css is written in there
+
+- **Internal**: Uses the `<style></style>` tag, with CSS written within it.
   ```html 
   <style>
-    box {
-      border:solid;
+    .box {
+      border: solid;
     }
-  </style>  
+  </style>
   ```
-**External** stores CSS code in a separate folder
+
+- **External**: Stores CSS in a separate file.
   ```css title="/src/public/style.css"
   .box {
-    border:solid;
+    border: solid;
   }
   ```
-#### CSS Selectors
-Selectors are used to select elements from class, id, or the element name itself. Here are some of the most commonly used selectors:
+
+### CSS Selectors
+
+Selectors are used to select elements by class, ID, or the element name itself. Here are some of the most commonly used selectors:
 
 - **Element Selector**: Selects all elements of a given type.
   ```css
@@ -83,6 +91,7 @@ Selectors are used to select elements from class, id, or the element name itself
 ## Basic CSS Properties
 
 ### Color and Background
+
 - **color**: Sets the color of text.
   ```css
   p {
@@ -105,6 +114,7 @@ Selectors are used to select elements from class, id, or the element name itself
   ```
 
 ### Text
+
 - **font-size**: Sets the size of the font.
   ```css
   h1 {
@@ -134,7 +144,8 @@ Selectors are used to select elements from class, id, or the element name itself
   ```
 
 ### Box Model
-The box model is what makes up the container that a element stores content in. 
+
+The box model defines the space an element takes up, including its content, padding, border, and margin.
 
 - **width** and **height**: Sets the width and height of an element.
   ```css
@@ -164,7 +175,6 @@ The box model is what makes up the container that a element stores content in.
     border: 1px solid black;
   }
   ```
-  ```
 
 - **position**: Specifies the type of positioning method used for an element.
   ```css
@@ -174,60 +184,67 @@ The box model is what makes up the container that a element stores content in.
     left: 50px;
   }
   ```
-  - others include relative, fixed, sticky, static
-  - also have top, right, bottom, left for final locations of elements
-
-Examples:
-
-  ```css 
+  Other types of positioning include `relative`, `fixed`, `sticky`, and `static`. You can also specify the final locations of elements using `top`, `right`, `bottom`, and `left`.
+  ```css
+  .box {
     position: static;
-    position: relative;
-    position: absolute;
-    position: fixed;
-    position: sticky;
+  }
 
+  .box {
+    position: relative;
+  }
+
+  .box {
+    position: absolute;
+  }
+
+  .box {
+    position: fixed;
+  }
+
+  .box {
+    position: sticky;
+  }
+
+  .box {
     top: 0px;
     right: 0px;
+    bottom: 0px;
     left: 0px;
-    right: 0px;
+  }
   ```
 
- **z-index**: Sets the stack order of an element.
-  - this changes how elements and css are layered upon eachother
-  - the larger the number, the more elements it will overlap
+- **z-index**: Sets the stack order of an element, which determines how elements overlap each other. A higher value means the element will be on top.
   ```css
   .overlay {
     z-index: 10;
   }
   ```
-  
-### Layout
-These include diplay, positioning, and layers. 
 
-**The Flexbox**:
-Flexbox is one of the most important css layouts to know. TailwindCSS utilizes flexbox as well as modern frontend development. The goal of flexbox is to give a container the ability to best fill the available space of a website. 
+## Layout
 
-- **display**: Specifies the display behavior of an element.
-Here we are using the flexbox property.
+### Flexbox
 
-Learn about flexbox in full detail here: [https://css-tricks.com/snippets/css/a-guide-to-flexbox/]
-  
-  To start using flexbox, you need this property:
+Flexbox is a powerful layout module that allows you to design complex layouts with ease. It gives a container the ability to alter its items' width, height, and order to best fill the available space.
+
+Learn about flexbox in full detail here: [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/).
+
+To start using flexbox, apply `display: flex` to a container.
   ```css
   .container {
     display: flex;
-    /* use flexbox properties below */
   }
-```
-
-The element that contains the `display: flex;` property is the parent called "flex contianer". The nested elements are called the childern or "flex items"
+  ```
+  The element with `display: flex` is the "flex container", and its nested elements are the "flex items".
   ```css
   .container {
-    display:flex;
+    display: flex;
     flex-direction: row;
   }
   ```
-- These next flexbox properties are used almost always to center elements
+
+  Here are some commonly used flexbox properties to center elements:
+
 - **justify-content**: Aligns flex items along the main axis.
   ```css
   .container {
@@ -242,8 +259,31 @@ The element that contains the `display: flex;` property is the parent called "fl
   }
   ```
 
-#### Atomic CSS
+### Atomic CSS
+
 Atomic CSS is a methodology where each class corresponds to a single CSS property, allowing for highly reusable and maintainable styles. Examples include frameworks like Tailwind CSS.
+
+- **Example of Atomic CSS with vanilla CSS**:
+  ```html
+  <button class="btn btn-font-lg btn-font-blue btn-rounding">Click Me</button>
+  ```
+  In our css file:
+
+  ```css
+    .btn-font {
+      font-size: 50px;
+    }
+
+    .btn-font-blue {
+      color: blue;
+    }
+
+    .btn-rounding {
+      border-radius: 25px;
+    }
+  ```
+
+Atomic CSS helped inspire TailwindCSS so learn to write inline styling when transitioning to Tailwind.
 
 - **Example of Atomic CSS with Tailwind**
   ```html
@@ -252,10 +292,11 @@ Atomic CSS is a methodology where each class corresponds to a single CSS propert
   </div>
   ```
 
-#### Benefits of Atomic CSS
+### Benefits of Atomic CSS
+
 - **Efficiency**: Reduced CSS file size due to reusable classes.
 - **Consistency**: Consistent styling across the application.
 - **Maintainability**: Easier to manage and update styles.
 
-Atomic CSS is important to understand because it is similar to Tailwind CSS, a CSS Library used to rapidly develop website CSS much faster.
-
+Atomic CSS is important to understand because it is similar to Tailwind CSS, a CSS framework used to rapidly develop website styles.
+```
