@@ -266,7 +266,7 @@ Functions are blocks of code designed to perform a particular task, executed whe
 
 ### Objects
 
-Objects are collections of related data and functions (called properties and methods).
+Objects are collections of related data and functions (called properties and methods). Objects are a essential part of programming and understanding how they are created and used in web development is fundemental.
 
 - **Creating an Object**:
 
@@ -289,41 +289,3 @@ Objects are collections of related data and functions (called properties and met
   ```
 
 ---
-
-### DOM Manipulation
-
-The Document Object Model (DOM) is a programming interface for web documents. It represents the page so that programs can change the document structure, style, and content.
-
-- **Selecting Elements**:
-
-  ```javascript
-  const element = document.getElementById("myElement");
-  const elements = document.getElementsByClassName("myClass");
-  ```
-
-- **Changing Content**:
-
-  ```javascript
-  element.innerHTML = "New Content";
-  ```
-
-- **Changing Styles**:
-
-  ```javascript
-  element.style.color = "blue";
-  ```
-
----
-
-### Events
-
-JavaScript can respond to user actions such as clicks, mouse movements, and keyboard inputs.
-
-- **Adding Event Listeners**:
-
-  ```javascript
-  const button = document.getElementById("myButton");
-  button.addEventListener("click", function () {
-    alert("Button was clicked!");
-  });
-  ```

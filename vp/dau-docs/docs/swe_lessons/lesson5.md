@@ -7,4 +7,4 @@ sidebar_position: 5
 
 ## Git and Github
 
-content not published yet.
+Before moving on with Javascript programming, we are going to look into using Git and Github.
