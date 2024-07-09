@@ -77,13 +77,16 @@ HTML Template to get started:
 </div>
 ```
 
-#### Common HTML elements:
+#### Common HTML elements
 
 - Divider: `<div></div>` creates a container for content usually flowing and usually is changed with CSS
+
   ```html
   <div>this is a div</div>
   ```
+
 - Span: `<span></span>` wrap content to be styled with CSS
+
   ```html
   <p>
     The font is
@@ -94,6 +97,7 @@ HTML Template to get started:
     ></span>
   </p>
   ```
+
 - Paragraph: `<p></p>` used for sentence or paragraph content
 
 ```html
@@ -115,12 +119,15 @@ HTML Template to get started:
 - Link: `<link>` stores links and references used in the head element
 
 - Anchor: `<a>` turns text into a link
+
   ```html
   <a href="some url here">text you want to turn into a link</a>
   ```
+
 - title: `<title></title>` used to changes the tab name
 
 - headings: `<h1></h1>` used to specify titles or headings with 6 levels h1 -> h6
+
   ```html
   <h1>Heading 1</h1>
   <h2>Heading 2</h2>
@@ -235,7 +242,7 @@ These are some of the most common semantic tags in HTML. They are important beca
 
 Div and span tags are very commonly used by new developers and you should only use these as a last resort if possible. They do not convey any specific meaning other than dividing up content. It's mostly recommended to use semantic HTML tags when possible before using these tags. Note that in React and most frontend development, Divs are used a lot because elements are styled with many properties. In the end, div's will be used to do much of the work of a webpage but still learning semantic HTMl to understand html structure.
 
-## The HTML Template Structure:
+## The HTML Template Structure
 
 ```html
 <!DOCTYPE html>
