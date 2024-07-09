@@ -263,3 +263,29 @@ Functions are blocks of code designed to perform a particular task, executed whe
   ```
 
 ---
+
+### Objects
+
+Objects are collections of related data and functions (called properties and methods). Objects are a essential part of programming and understanding how they are created and used in web development is fundemental.
+
+- **Creating an Object**:
+
+  ```javascript
+  let car = {
+    make: "Toyota",
+    model: "Corolla",
+    year: 2020,
+    start: function () {
+      console.log("Car started");
+    },
+  };
+  ```
+
+- **Accessing Object Properties**:
+
+  ```javascript
+  console.log(car.make); // Toyota
+  car.start(); // Car started
+  ```
+
+---
