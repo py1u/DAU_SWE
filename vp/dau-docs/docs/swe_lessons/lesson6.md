@@ -1,5 +1,5 @@
 ---
-sidebar_label: "Learning Git and Github"
+sidebar_label: "Intermediate JavaScript"
 sibebar_postion: 6
 ---
 
@@ -7,4 +7,4 @@ sibebar_postion: 6
 
 ## Intermediate Javascript
 
-Intermediate Javascript will cover more concepts and programming paradigms related to development. This includes DOM manipulation, asynchronus javascript, and futher applications of objects and arrays.
+Intermediate JavaScript will cover more concepts and programming paradigms related to development. This includes DOM manipulation, asynchronus JavaScript, and futher applications of objects and arrays. These are slighty more challenging but they help better understand how you can work with React and Nextjs better.
