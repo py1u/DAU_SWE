@@ -1,0 +1,49 @@
+body {
+  background-image: url("../media/images/bg.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 500;
+}
+
+.nav-bar {
+  border: solid red;
+  display: flex;
+  flex-direction: rows;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-options {
+  display: flex;
+  background-color: #64a587;
+  width: auto;
+  gap: 32px;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.userStatus {
+  margin-right: 16px;
+}
+
+.userStatus button {
+  background-color: bisque;
+  border: solid grey 1px;
+  padding: 8px;
+  border-radius: 8px;
+}
+.userStatus button a {
+  font-family: "Work Sans", sans-serif;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.logo {
+  border: solid blue;
+}
+.logo img {
+  width: 20%;
+}
