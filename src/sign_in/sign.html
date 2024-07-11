@@ -1,33 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='https://fonts.googleapis.com/css?family=Josefin Sans' rel='stylesheet'>
-    <link rel="stylesheet" href="sign.css">
-    <title>Log In</title>
-</head>
-<body>
-    <img class="primary-logo" src="../media/images/primary_logo.svg">
-    <img class="secondary-logo" src="../media/images/secondary_logo.svg">
-    <header class="container-header"><p>Sign In</p></header>
-    <section class="log-in-container">
-        <div>
-                <label for="email">email</label>
-                <input type="text" id="email" placeholder="johndoe@gmail.com">
-        </div>
-        <div>
-            <label for="password">password</label>
-            <input type="password" id="password" placeholder="password">
-        </div>
-        <span id="divider">
-            <hr class="solid">
-            OR
-            <hr class="solid">
-        </span>
-        <button>create an account</button>
-    </section>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Flexbox example</title>
+    <style>
+      html {
+        font-family: sans-serif;
+      }
 
-    </div>
-</body>
+      body {
+        margin: 0;
+    }
+    
+    header {
+        background: rgb(228, 166, 137);
+        height: 100px;
+    }
+    article {
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+      margin: 10px;
+      background: rgb(149, 248, 210);
+    }
+
+      h1 {
+        text-align: center;
+        color: white;
+        line-height: 100px;
+        margin: 0;
+      }
+
+
+
+
+      
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Sample flexbox example</h1>
+    </header>
+
+    <section>
+      <article>
+        <h2>First article</h2>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </article>
+
+      <article>
+        <h2>Second article</h2>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </article>
+
+      <article>
+        <h2>Third article</h2>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+      </article>
+    </section>
+  </body>
 </html>
