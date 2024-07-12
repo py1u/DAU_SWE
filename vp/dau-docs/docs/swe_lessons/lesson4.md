@@ -235,14 +235,28 @@ Loops are used to repeat a block of code multiple times. The purpose of using lo
 
 Functions are blocks of code designed to perform a particular task, executed when called.
 
+- Use functions when you have repeated and reusing code
+- helps write efficient and convinient code
+
+Function name rules:
+
+- cant use special words like `function`
+- cant start with a number like `123name`
+- cant use special characters except `$` and `_`
+- use camelCase as good practice for function naming
 - **Function Declaration**:
 
-  ```javascript
-  function greet(name) {
-    return "Hello, " + name;
-  }
-  console.log(greet("John"));
-  ```
+Using functions:
+
+1. declare a function
+2. call the function
+
+```javascript
+function greet(name) {
+  return "Hello, " + name;
+}
+console.log(greet("John"));
+```
 
 - **Function Expression**:
 
