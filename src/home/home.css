@@ -1,0 +1,79 @@
+body {
+  background-image: url("../media/images/bg.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 500;
+  margin: 0;
+}
+.nav-bar {
+  /* background-color: #64a587; */
+  background-color: #b6ddda;
+  border: none;
+  padding: 20px;
+  display: flex;
+  flex-direction: rows;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-options {
+  display: flex;
+  gap: 4.5em;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #121212;
+}
+
+.userStatus {
+  margin-right: 2em;
+}
+
+.userStatus button {
+  background-color: #64a587;
+  border: none;
+  padding: 0.6em 0.8em 0.6em 0.8em;
+  border-radius: 8px;
+}
+.userStatus button a {
+  font-family: "Work Sans", sans-serif;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.logo {
+  border: none;
+}
+.logo img {
+  margin-left: 1em;
+  width: 20%;
+}
+
+.opening-section {
+  border: solid green;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title-container {
+  margin-top: 15%;
+  border: solid green;
+}
+
+.title-container img {
+  width: 1400px;
+}
+.mission {
+  text-align: center;
+  border: solid red;
+  width: 60%;
+}
+
+.main-stmt {
+  padding: 20px;
+  border: solid red;
+  font-size: 32px;
+}
