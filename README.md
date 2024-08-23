@@ -1,10 +1,8 @@
 # DAU_SWE
-### DAU SWE Team 
 
-updated: 6/19/24
+updated: 8/23/24
 
-Leads: 
-- Peter Lu, Alex Zhang, Kelly Serafico, Valerie Wong
+Lead: Peter Lu
 
 Members:
 - Tiana Nguyen
