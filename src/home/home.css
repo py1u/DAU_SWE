@@ -43,8 +43,34 @@ nav{
   text-align: center;
   font-weight: medium;
   width: 55rem;
+  color: #E15225
 }
 
 .highlight{
   color: #E15225;
+}
+
+.buttons{
+  display: flex;
+  flex-direction: row;
+}
+.buttons button{
+  font-family: 'Inter', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  width: 18rem;
+  height: 5rem;
+  /* padding: 1rem 2rem; */
+  border-radius: 5rem;
+  border-style: none;
+  margin: 1rem;
+}
+
+#signup{
+  background-color: #78A38B;
+}
+
+#learn-more{
+  background-color: #E3896D;
 }
