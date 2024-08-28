@@ -1,3 +1,7 @@
+body{
+  margin: 0;
+}
+
 a{
   text-decoration: none;
 }
@@ -24,7 +28,7 @@ nav{
   margin-left: 1.5rem;
 }
 
-.right-nav a:first-child{
+.right-nav a:not(:last-child){
   margin-right: 1.5rem;
 }
 
