@@ -5,7 +5,7 @@ a{
 nav a{
   color: #E15225;
   font-weight: bold;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 nav{
@@ -43,8 +43,10 @@ nav{
   text-align: center;
   font-weight: medium;
   width: 55rem;
-  color: #E15225
+  color: #FF7F7F;
 }
+
+
 
 .highlight{
   color: #E15225;
@@ -74,3 +76,4 @@ nav{
 #learn-more{
   background-color: #E3896D;
 }
+
