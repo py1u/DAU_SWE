@@ -95,3 +95,67 @@ nav{
   background-color: #E3896D;
 }
 
+#about{
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.window-container {
+  width: 60rem;
+  height: 40rem;
+  border-radius: 50px;
+  background-color: rgba(247, 251, 255, .9);
+  margin: auto;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+
+  
+}
+
+.window-header{
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  background-color: rgba(232, 232, 232, .9);
+  width: 100%;
+  height: 3rem;
+  
+  display: flex;
+  align-items: center;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  
+}
+
+.window-buttons{
+  display: flex;
+  width: fit-content;
+  position: absolute;
+  margin-left: 30px;
+  
+}
+.window-button{
+  width: 1.2rem;
+  height: 1.2rem;
+  background-color: #ffffff;
+  border-radius: 50%;
+  position:relative;
+
+}
+
+.window-button:not(:first-child){
+  margin-left: .7rem;
+}
+
+.red{
+  /* background-color: #875050; */
+}
+.yellow{
+  background-color: #FFC774;
+}
+
+.green{
+  background-color: #66DC64;
+}
