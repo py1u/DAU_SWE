@@ -165,16 +165,23 @@ nav{
   height: 100%;
   display: flex;
   flex-direction: row;
-  padding: 2rem;
+  /* padding: 2rem; */
+  align-items: center;
 }
 
 .window-content img{
   width: 40%;
+  margin-left: 1rem;
+}
+
+.window-text{
+  margin-left: 1rem;
 }
 
 .dau-profile{
   display:flex;
   flex-direction: row;
+  align-items: center;
 }
 
 .dau-pfp{
@@ -182,4 +189,28 @@ nav{
   height:2.5rem;
   border-radius: 50%;
   background-color: #FFE3C5;
+}
+
+.dau-account-name{
+  font-family: 'Inter', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-left: .5rem;
+  color: #D73737;
+}
+
+.dau-caption span{
+  font-family: 'Inter', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  /* margin-left: .5rem; */
+  color: #D73737;
+}
+
+.dau-caption{
+  font-family: 'Inter', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-left: .5rem;
+  color: #EA805F
 }
