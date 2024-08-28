@@ -214,3 +214,28 @@ nav{
   margin-left: .5rem;
   color: #EA805F
 }
+
+footer{
+  width: 100vw;
+  height: 75px;
+  background-color: #78A38B;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between
+}
+
+.left-foot{
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.left-foot img{
+  /* height: 10%; */
+}
+
+.right-foot{
+  display:flex;
+  align-items: center;
+}
