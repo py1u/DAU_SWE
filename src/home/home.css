@@ -1,5 +1,9 @@
 html{
   overflow-x: hidden;
+  
+}
+html::-webkit-scrollbar {
+  display: none;
 }
 
 body{
@@ -217,7 +221,7 @@ nav{
 
 footer{
   width: 100vw;
-  height: 75px;
+  height: 120px;
   background-color: #78A38B;
   display: flex;
   flex-direction: row;
@@ -233,18 +237,22 @@ footer{
   font-family: 'Sora', sans-serif;
   color: white;
   font-weight: bold;
-  font-size: 1.5rem;
+  margin-left: 1rem;
 }
 
 .left-foot p{
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 30%; 
+  font-size: 2em;
 }
 
 .left-foot img{
-  /* width: 200px; */
+  height: 40%;
 }
 
 .right-foot{
   display:flex;
   align-items: center;
+  margin-right: 1rem;
 }
