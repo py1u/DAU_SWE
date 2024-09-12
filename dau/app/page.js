@@ -2,6 +2,7 @@ import Image from 'next/image';
 import SecondaryLogo from "../public/images/secondary_logo.svg";
 import Nav from "./components/Nav.js";
 import Button from "./components/Button.js";
+import Footer from "./components/Footer.js";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
         </section>
       </div>
       <p>rest of content here</p>
+      <Footer />
     </div>
   );
 }
