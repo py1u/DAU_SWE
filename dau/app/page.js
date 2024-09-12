@@ -17,8 +17,8 @@ export default function Home() {
           </p>
 
           <div className="flex flex-row">
-            <Button text="SIGN UP" bg="bg-[#73AD8D]"/>
-            <Button text="LEARN MORE" bg="bg-[#ED8261]"/>
+            <Button text="SIGN UP" bg="bg-[#73AD8D]" shadow="shadow-button-shadow"/>
+            <Button text="LEARN MORE" bg="bg-[#ED8261]" shadow="shadow-button-shadow"/>
           </div>
         </section>
       </div>
