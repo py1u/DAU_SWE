@@ -7,7 +7,7 @@ const Nav = () =>{
         <div className="flex items-center"> 
             <Image src={Logo} alt="DAU Logo" className="w-32 h-32"/>
         </div>
-        <div className="flex items-center space-x-6 text-accent font-bold text-2xl">
+        <div className="flex items-center space-x-6 text-accent font-bold text-2xl pr-4">
             <a href="../about/about.html">ABOUT</a>
             <a href="#">EVENTS</a>
             <a href="#">RESOURCES</a>
