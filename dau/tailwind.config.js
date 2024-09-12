@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       colors: {
         accent: '#E15225',
+        mission: "#C5614E",
       },
       fontSize: {
         '2xl': '2rem',
