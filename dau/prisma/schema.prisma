@@ -1,0 +1,36 @@
+// prisma/schema.prisma
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Admin {
+  id       Int      @id @default(autoincrement())
+  name     String
+  email    String   @unique
+  projects Project[] // One admin can manage multiple projects
+  emails   Email[]  // One admin can send multiple emails
+}
+
+model Project {
+  id          Int      @id @default(autoincrement())
+  title       String
+  description String?
+  createdAt   DateTime @default(now())
+  adminId     Int
+  admin       Admin    @relation(fields: [adminId], references: [id])
+}
+
+model Email {
+  id        Int      @id @default(autoincrement())
+  adminId   Int
+  subject   String
+  body      String
+  sentAt    DateTime @default(now())
+  admin     Admin    @relation(fields: [adminId], references: [id])
+}
