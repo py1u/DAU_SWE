@@ -1,10 +1,7 @@
 # DAU_SWE
 
-updated: 8/23/24
-
-Lead: Peter Lu
-
-Members:
+Authors:
+- Peter Lu
 - Tiana Nguyen
 - Charleen Chen
 - Angeline Tran
